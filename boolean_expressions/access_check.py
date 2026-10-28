@@ -10,4 +10,4 @@ failed_attempts = int(input("Failed attempts: "))
 
 print (f"MFA OK: {mfa_passed}")
 print (f"Privileged role: {role}") 
-print (f"Can log in: {mfa_passed==True and failed_attempts < MAX_FAILED}")  
+print (f"Can log in: {mfa_passed==True and failed_attempts < MAX_FAILED}")      
