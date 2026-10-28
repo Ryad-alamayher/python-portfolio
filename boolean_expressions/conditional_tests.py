@@ -13,7 +13,7 @@ print("\nIs user == \"analyst\" ? I predict True")
 print(user == "analyst")
 
 print("\nIs (port>=failed) ^ (failed >= port) ? I predict True ")
-print((port>=failed) ^ (failed >= port))
+print((port>failed) ^ (failed >= port))
 
 print("\nIs failed<=port ? I predict True")
 print(failed<=port)
