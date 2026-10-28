@@ -15,7 +15,7 @@ if failed_attempts >= 3:
 if login_hour < 6:
     score=score+30
 
-if new_device == "yes":
+if new_device == "yes": 
     score=score+30
 
 
