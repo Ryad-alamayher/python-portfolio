@@ -3,7 +3,10 @@
 
 def is_locked(failed, max_tries=3):
     """Return True if failed tries reach max_tries or more, else False."""
-    return failed >= max_tries
+    if (failed >= max_tries):
+        return True
+    else:
+        return False
 
 def tries_left(failed, max_tries=3):
     """Return 0 if the account is locked, else max_tries - failed."""
